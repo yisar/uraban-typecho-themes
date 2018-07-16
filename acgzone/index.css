@@ -1,0 +1,22 @@
+/*初始化*/
+
+*{margin:0;padding:0}
+
+a{text-decoration:none;}
+
+body{background: url(http://ww4.sinaimg.cn/large/0065Zy9ejw1f7os2tl5tyj31hc0xck13.jpg) fixed;background-size: cover;font:12px/1.5 sans-serif;font-family:Helvetica,Arial,STHei,sans-serif;}
+
+h1,a,p,.headline{transition:all .3s ease-in-out;}
+
+.headline a{font-size: 50px;color: rgba(255,255,255,0.2);text-shadow:0 0 10px rgba(255,255,255,0.9);font-weight: 500;}
+
+.headline p{font-size: 16px;color: rgba(255,255,255,0.5);text-shadow:0 0 10px rgba(255,255,255,0.9);font-weight: 500;margin-left: 20px;}
+
+.headline{position: fixed;right: 10px;top: 50px;}
+
+.headline:hover{top: 70px;}
+
+.headline:hover a{text-shadow:none;color: #fff;}
+
+
+
